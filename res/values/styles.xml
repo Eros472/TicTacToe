@@ -1,0 +1,29 @@
+<resources>
+    <!-- Light Theme -->
+    <style name="Theme.Light" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">#FFFFFF</item> <!-- Background color -->
+        <item name="colorPrimary">#6200EE</item> <!-- Primary color -->
+        <item name="colorPrimaryVariant">#3700B3</item> <!-- Variant of primary color -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Text color on primary -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Default text color -->
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.Dark" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">#000000</item> <!-- Background color -->
+        <item name="colorPrimary">#1F1F1F</item>
+        <item name="colorPrimaryVariant">#121212</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <!-- High Contrast Theme -->
+    <style name="Theme.HighContrast" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">#000000</item> <!-- High contrast background -->
+        <item name="colorPrimary">#FFD700</item> <!-- Gold -->
+        <item name="colorPrimaryVariant">#FFA500</item> <!-- Orange -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White text on primary -->
+        <item name="android:textColorPrimary">#FFD700</item> <!-- Gold text -->
+    </style>
+</resources>
+
